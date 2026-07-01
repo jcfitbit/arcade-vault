@@ -15,4 +15,21 @@ https://github.com/Klerith/fernando-skills
 npx skills@latest add Klerith/fernando-skills
 ```
 
-## Hola Mundo
+## 🚀 Development Workflow
+
+### Run / Develop
+```bash
+npm run dev    # or: npx next dev
+```
+Opens at `http://localhost:3000`. The dev server supports HMR.
+
+### Build & Start (production)
+```bash
+npm run build   # Compiles to .next/
+npm run start   # Starts the production server on :3000
+```
+
+### Lint
+```bash
+npm run lint    # Runs eslint-config-next (vitals + typescript rules)
+```

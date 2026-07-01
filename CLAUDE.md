@@ -19,24 +19,7 @@ There are no separate pages directories, API routes, components folders, or util
 
 **Stack:** Next.js 16 App Router | React 19 | TypeScript 5 | Tailwind CSS v4 (via `@tailwindcss/postcss`) | Geist fonts
 
-## 🚀 Development Workflow
 
-### Run / Develop
-```bash
-npm run dev    # or: npx next dev
-```
-Opens at `http://localhost:3000`. The dev server supports HMR.
-
-### Build & Start (production)
-```bash
-npm run build   # Compiles to .next/
-npm run start   # Starts the production server on :3000
-```
-
-### Lint
-```bash
-npm run lint    # Runs eslint-config-next (vitals + typescript rules)
-```
 
 ## 📚 Project Context & Requirements
 
@@ -45,3 +28,7 @@ npm run lint    # Runs eslint-config-next (vitals + typescript rules)
 - **TypeScript paths:** `@/*` maps to project root (`./*`).
 - **CSS architecture:** Tailwind v4 uses `@import "tailwindcss"` in `globals.css`. Theme colors are controlled via CSS custom properties (`--background`, `--foreground`) with automatic light/dark mode based on `prefers-color-scheme`.
 - **PostCSS plugin:** `@tailwindcss/postcss` (not the standalone CLI).
+
+## Skills
+
+Usa siempre /frontend-design para diseñar la interfaz de usuario
